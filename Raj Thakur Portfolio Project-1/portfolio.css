@@ -1,0 +1,109 @@
+body {
+    font-family: 'Ovo', serif;
+}
+/* nav bar color effect*/
+nav ul li a {
+    position: relative;
+    color: rgb(75, 71, 71);
+    text-decoration: none;
+    padding: 5px 0;
+    transition: color 0.3s;
+}
+
+nav ul li a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 17, 0);
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+nav ul li a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.dark nav ul li a {
+    color: rgb(172, 154, 154);
+}
+
+.dark nav ul li a:hover {
+    color: rgb(241, 42, 16);
+}
+
+.dark nav ul li a::before {
+    background-color: rgb(231, 23, 23);
+}
+
+.btn {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    background-color: rgba(92, 93, 170, 0.8);
+    color: rgb(255, 255, 255);
+    border-radius: 9999px;
+    margin: 0 auto;
+    transition: background-color 0.5s, box-shadow 0.5s, transform 0.2s;
+    position: relative;
+    overflow: hidden;
+}
+.btn::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: radial-gradient(circle, rgba(96, 142, 211, 0.418) 0%, rgba(255, 255, 255, 0) 70%);
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.5s;
+}
+.btn:hover {
+    background-color: rgb(134, 112, 196);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    transform: translateY(-5px);
+}
+.btn:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+}
+.btn.dark {
+    background-color: transparent;
+    border: 0.5px solid white;
+}
+.btn.dark:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.rotate-slow{
+    animation: spin 10s linear infinite;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+     to{
+        transform: rotate(360deg)
+     }
+}
+@keyframes progress {
+    from { width: 0; }
+    to { width: var(--progress-width); }
+}
+.progress-bar-inner {
+    animation: progress 2s ease-in-out forwards;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.bg-html { background: linear-gradient(90deg, #e44d26, #f16529); }
+.bg-css { background: linear-gradient(90deg, #264de4, #2965f1); }
+.bg-python { background: linear-gradient(90deg, #306998, #4b8bbe); }
+.bg-javascript { background: linear-gradient(90deg, #f7df1e, #f7e018); color: #000; }
