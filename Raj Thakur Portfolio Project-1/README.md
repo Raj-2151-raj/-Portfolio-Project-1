@@ -1,32 +1,30 @@
-# 🌟 Raj Thakur Portfolio Project 🌟
+# 🌟 Raj Thakur Portfolio Project
 
-Welcome to my personal portfolio project! This project showcases my skills in **HTML**, **Tailwind CSS**, and **JavaScript**.
+Welcome to my personal portfolio project! This project is part of an Internshala assignment and showcases my skills in web development using HTML, Tailwind CSS, and JavaScript.
 
 ## 🚀 Features
+- Fully responsive design
+- Smooth navigation bar
+- Project showcase section
+- Simple and functional contact form
 
-- **Responsive Design**: Works seamlessly across devices.
-- **Navigation Bar**: Easy navigation to explore the content.
-- **Projects Showcase**: View my personal and professional projects.
-- **Contact Form**: Get in touch with me for opportunities.
+## 💻 Technologies Used
+- **HTML**
+- **Tailwind CSS**
+- **JavaScript**
 
-## 🛠️ Technologies Used
+## 📁 Project Structure
+- `index.html` – Main page of the portfolio
+- `style.css` or Tailwind CDN – For styling
+- `script.js` – For any interactive functionality
 
-- **HTML** - Structure of the website
-- **Tailwind CSS** - Styling and responsive design
-- **JavaScript** - Adding dynamic functionality
-
-## ⚙️ How to Use
-
-1. Clone or download the repository.
-2. Open `raj_thakur_portfolio.html` in your browser.
-3. Explore the website and get to know me!
-
-## 🌐 Links
-
-- 🚀 [Live Portfolio](https://rajthakurportfolio.netlify.app)  
-- 📂 [GitHub Repository](https://github.com/Raj-2151-raj/-Portfolio-Project-1/tree/main/Raj%20Thakur%20Portfolio%20Project-1)
+## 📂 GitHub Repository
+[Click Here to View on GitHub](https://github.com/Raj-2151-raj/raj-portfolio)
 
 ## 👨‍💻 Author
+**Raj Thakur**  
+📧 contact@rajcthakur07@gmail.com
 
-This project is created and maintained by **Raj Thakur**.  
-Feel free to contact me via the contact form on the website or at **contact@rajcthakur07@gmail.com**.
+---
+
+Thanks for visiting!
