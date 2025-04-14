@@ -19,7 +19,7 @@ Welcome to my personal portfolio project! This project is part of an Internshala
 - `script.js` – For any interactive functionality
 
 ## 📂 GitHub Repository
-[Click Here to View on GitHub](https://github.com/Raj-2151-raj/raj-portfolio)
+[Click Here to View on GitHub](https://github.com/Raj-2151-raj/-Portfolio-Project-1/tree/main/Raj%20Thakur%20Portfolio%20Project-1)
 
 ## 👨‍💻 Author
 **Raj Thakur**  
